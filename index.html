@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline' *; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Surgipho</title>
+    
+    <!-- Inline script to set environment variables before any other scripts run -->
+    <script>
+      // Set environment variables for Capacitor
+      window.SUPABASE_URL = 'https://oejvwzhgwgdmbdsdahpk.supabase.co';
+      window.SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9lanZ3emhnd2dkbWJkc2RhaHBrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkzMjcyMzEsImV4cCI6MjA2NDkwMzIzMX0.enMKceuBIlZJ_EmftRuAG1AeBsGaBMrRTqInLZHrORI';
+      
+      // Debug log
+      console.log('Supabase environment variables set');
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
